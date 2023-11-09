@@ -45,3 +45,6 @@ Deploy function to AWS Lambda
     cd "HtmltoWord/src/HtmltoWord"
     dotnet lambda deploy-function
 ```
+
+# Author
+The project/solution was made by Leonardo Bonato Bizaro. You can make contact using the following email: leonardobonatob@gmail.com
