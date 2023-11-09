@@ -1,0 +1,119 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bonatobl\\Documents\\Learning\\Microsoft TFC\\translator-backend\\translator\\translator_blog\\HtmltoWord\\HtmlToWord.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bonatobl\\Documents\\Learning\\Microsoft TFC\\translator-backend\\translator\\translator_blog\\HtmltoWord\\HtmlToWord.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bonatobl\\Documents\\Learning\\Microsoft TFC\\translator-backend\\translator\\translator_blog\\HtmltoWord\\HtmlToWord.csproj",
+        "projectName": "HtmlToWord",
+        "projectPath": "C:\\Users\\bonatobl\\Documents\\Learning\\Microsoft TFC\\translator-backend\\translator\\translator_blog\\HtmltoWord\\HtmlToWord.csproj",
+        "packagesPath": "C:\\Users\\bonatobl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bonatobl\\Documents\\Learning\\Microsoft TFC\\translator-backend\\translator\\translator_blog\\HtmltoWord\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bonatobl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\bonatobl\\Documents\\Coding\\nuget_source": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.106.33, )"
+            },
+            "AWSSDK.IdentityManagement": {
+              "target": "Package",
+              "version": "[3.7.2.199, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.9.64, )"
+            },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.102.1, )"
+            },
+            "AWSSDK.Translate": {
+              "target": "Package",
+              "version": "[3.7.6.2, )"
+            },
+            "Amazon.Lambda.APIGatewayEvents": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Amazon.Lambda.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Amazon.Lambda.Serialization.SystemTextJson": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "CsQuery.NETStandard": {
+              "target": "Package",
+              "version": "[1.3.6.1, )"
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
